@@ -20,10 +20,10 @@ public class Ejercicio6 {
 		multi = num1*num2*num3;
 		suma = num1+num2+num3;
 		if(num1 < 0){
-			System.out.println("Como el primer numero que has introducido es negativo, realizaremos la multiplicacion de los 3 numeros " + multi);
+			System.out.println("Como el primer numero que has introducido es negativo, realizaremos la multiplicacion de los 3 numeros --- "+ num1 + "*" + num2 + "*" + num3 + "=" + + multi);
 			
 		}else { 
-			System.out.println("Como el primer numero que has introducido NO es negativo, realizaremos la suma de los 3 numeros --- " + num1 + num2 + num3 + "=" + (suma));
+			System.out.println("Como el primer numero que has introducido NO es negativo, realizaremos la suma de los 3 numeros --- " + num1 + "+" + num2 + "+" + num3 + "=" + (suma));
 			
 		}
 
