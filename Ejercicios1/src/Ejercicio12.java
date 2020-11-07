@@ -20,7 +20,7 @@ public class Ejercicio12 {
 			System.out.println("Entonces has realizado una prueba de acceso?");
 			pruebaacc = leer .nextLine();
 		
-			if(pruebaacc.equalsIgnoreCase("si")){
+		if(pruebaacc.equalsIgnoreCase("si")){
 				System.out.println("Puedes acceder");
 			}else{
 				System.out.println("Lo sentimos,no puedes acceder, suerte para la próxima");
