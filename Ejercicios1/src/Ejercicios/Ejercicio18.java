@@ -1,3 +1,4 @@
+package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio18 {
@@ -11,7 +12,7 @@ public class Ejercicio18 {
 		
 		
 		
-		System.out.println("Escribe numeros, y te mostrare el minimo,el máximo, y la media de todos ellos.(Para finalizar el programa escribe 0");
+		System.out.println("Escribe numeros, y te mostrare el minimo,el mï¿½ximo, y la media de todos ellos.(Para finalizar el programa escribe 0");
 		nums = leer .nextInt();
 		
 		cont = 0;

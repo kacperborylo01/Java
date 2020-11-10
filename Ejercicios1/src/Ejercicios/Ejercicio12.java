@@ -1,3 +1,4 @@
+package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio12 {
@@ -23,7 +24,7 @@ public class Ejercicio12 {
 		if(pruebaacc.equalsIgnoreCase("si")){
 				System.out.println("Puedes acceder");
 			}else{
-				System.out.println("Lo sentimos,no puedes acceder, suerte para la próxima");
+				System.out.println("Lo sentimos,no puedes acceder, suerte para la prï¿½xima");
 				
 			}
 			

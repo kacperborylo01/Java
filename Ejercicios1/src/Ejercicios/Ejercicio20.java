@@ -1,3 +1,4 @@
+package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio20 {
@@ -9,7 +10,7 @@ public class Ejercicio20 {
 		
 		String mesString= "";
 		
-		int dia,mes,año;
+		int dia,mes,aï¿½o;
 		
 		System.out.println("Escribe el dia de hoy (En numero)");
 		dia = leer .nextInt();
@@ -17,8 +18,8 @@ public class Ejercicio20 {
 		System.out.println("Escribe el mes actual (En numero)");
 		mes = leer .nextInt();
 		
-		System.out.println("Escribe el año actual (En numero)");
-		año = leer .nextInt();
+		System.out.println("Escribe el aï¿½o actual (En numero)");
+		aï¿½o = leer .nextInt();
 		
 		switch (mes)
 		{
@@ -49,7 +50,7 @@ public class Ejercicio20 {
 			
 		}
 		
-		System.out.println("Hoy es " + dia + " de " + (mesString) + " del año 1"  +año);
+		System.out.println("Hoy es " + dia + " de " + (mesString) + " del aï¿½o 1"  +aï¿½o);
 	}
 
 }

@@ -1,3 +1,4 @@
+package Ejercicios;
 import java.util.Scanner;
 public class Ejercicio21 {
 
@@ -7,7 +8,7 @@ public class Ejercicio21 {
 
 		double npractica,nproblemas,nteorica,media;
 		String nombre;
-		System.out.println("Escribeme el nombre del alumno a calificar:(si no escribes nada el proceso finalizará)");
+		System.out.println("Escribeme el nombre del alumno a calificar:(si no escribes nada el proceso finalizarï¿½)");
 		nombre = leer .nextLine();
 		while (nombre != "") {
 		
@@ -27,7 +28,7 @@ public class Ejercicio21 {
 			
 			System.out.println("La nota de los problemas es un " + nproblemas);
 			
-			System.out.println("La nota de la práctica es un " + npractica);
+			System.out.println("La nota de la prï¿½ctica es un " + npractica);
 			
 			npractica = npractica * 0.1;
 					

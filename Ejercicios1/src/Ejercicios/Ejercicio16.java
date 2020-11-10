@@ -1,3 +1,4 @@
+package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio16 {
@@ -12,7 +13,7 @@ public class Ejercicio16 {
 		cont = 1;
 		suma = 0;
 		
-		System.out.println("Escribe una nota para calcular la media aritmética (Introduce 0 para terminar)");
+		System.out.println("Escribe una nota para calcular la media aritmï¿½tica (Introduce 0 para terminar)");
 		nums = leer .nextInt();
 		
 		while (nums > 0) {
@@ -23,7 +24,7 @@ public class Ejercicio16 {
 		System.out.println("Nota" + cont);
 		nums = leer . nextInt();
 		}
-		System.out.println("La media aritmética es:" + suma / (cont-1));
+		System.out.println("La media aritmï¿½tica es:" + suma / (cont-1));
 		
 
 	}
