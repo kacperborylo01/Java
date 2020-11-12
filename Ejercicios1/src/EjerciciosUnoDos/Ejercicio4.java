@@ -11,7 +11,7 @@ public class Ejercicio4 {
 			
 			i++;
 		}
-		System.out.println(suma);
+		System.out.println("La suma de los 100 primeros numeros es " + suma);
 	}
 
 }
