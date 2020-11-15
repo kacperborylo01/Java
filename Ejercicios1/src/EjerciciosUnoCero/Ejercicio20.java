@@ -10,7 +10,7 @@ public class Ejercicio20 {
 		
 		String mesString= "";
 		
-		int dia,mes,aï¿½o;
+		int dia,mes,año;
 		
 		System.out.println("Escribe el dia de hoy (En numero)");
 		dia = leer .nextInt();
@@ -19,7 +19,7 @@ public class Ejercicio20 {
 		mes = leer .nextInt();
 		
 		System.out.println("Escribe el aï¿½o actual (En numero)");
-		aï¿½o = leer .nextInt();
+		año = leer .nextInt();
 		
 		switch (mes)
 		{
@@ -50,7 +50,7 @@ public class Ejercicio20 {
 			
 		}
 		
-		System.out.println("Hoy es " + dia + " de " + (mesString) + " del aï¿½o 1"  +aï¿½o);
+		System.out.println("Hoy es " + dia + " de " + (mesString) + " del año 1"  +año);
 	}
 
 }
