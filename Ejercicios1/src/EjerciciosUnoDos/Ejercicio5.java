@@ -14,7 +14,7 @@ public class Ejercicio5 {
 		
 		System.out.println("Introduce una letra (solo puede ser N o S)");
 		escrito = leer .nextLine();
-		if (escrito.equalsIgnoreCase(escrito = "S") && (escrito == "N") && (escrito == "n")){
+		if (escrito.equalsIgnoreCase("S") || (escrito.equalsIgnoreCase("N"))){
 			System.out.println("La letra es correcta");
 		}else{
 			System.out.println("La letra no es ni S ni N");

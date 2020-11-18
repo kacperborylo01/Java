@@ -12,7 +12,7 @@ public class Ejercicio10 {
 		
 		int cont;
 		
-		System.out.println("Escribe una pabra o una frase");
+		System.out.println("Escribe una palabra o una frase");
 		frase = leer .nextLine();
 		
 		System.out.println("Ahora escribe la letra que quieres saber cuantas veces se muestra en la palabra o frase");
