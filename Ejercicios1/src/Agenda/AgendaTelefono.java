@@ -29,16 +29,18 @@ public static void inicializarDatos(String mDatos[][],String nombre, int telefon
 
 		Scanner leer = new Scanner(System.in);
 		
-		int opc = 0,telefono=0,tam=0,filas;
+		String mDatos[][];
+		int opc = 0,telefono=0,tam=0,filas=0,columnas=2;
 		String nombre="";
-		System.out.println("Dime el numero de los empleados que vas a añadir");
+		System.out.println("Dime el numero de los empleados que vas a aniadir");
 		filas = leer .nextInt();
-		String mDatos[][] = new String[filas][];
+		mDatos = new String[filas][2];
+		
 		
 		
 		while(opc != 6){
 		System.out.println("Menu de gestiones:");
-		System.out.println("1 - Añadir Contacto");
+		System.out.println("1 - Aniadir Contacto");
 		System.out.println("2 - Buscar Contacto");
 		System.out.println("3 - Borrar Contacto");
 		System.out.println("4 - Editar Contacto");
