@@ -13,15 +13,40 @@ public static void preguntarDatos(String nombre, int telefono, String mDatos[][]
 	mDatos[i][0]=leer.next();
 	System.out.println("Ahora introduce el telefono del contacto");
 	mDatos[i][1] = leer.next();
+	
+	System.out.println("Se ha añadido un nuevo empleado con éxito");
 	}
 }
 
 public static void inicializarDatos(String mDatos[][],String nombre, int telefono) {
 	for (int i = 0; i < mDatos.length; i++) {
-		
-	mDatos[i][0] = "";
-	mDatos[i][1] = "";
+	for (int j = 0; j < mDatos.length; j++) {
+		mDatos[i][j]= "";
+	}	
+	
 }}
+
+
+public static void buscarContacto(String mDatos[][],String aux) {
+	Scanner leer = new Scanner(System.in);
+	System.out.println("Que contacto quieres buscar?");
+	aux = leer.nextLine();
+	for (int i = 0; i < mDatos.length; i++) {
+		if (mDatos[i][0].equalsIgnoreCase(aux) || mDatos[i][1].equalsIgnoreCase(aux)) {
+			System.out.println("El nombre es " + mDatos[i][0] + " y su telefono es " + mDatos[i][1]);
+		}else {
+			System.out.println("El contacto con nombre" + aux + "no se encuentra en la lista");
+		}
+	}
+}
+
+public static void borrarContacto(String mDatos,String aux) {
+	Scanner leer = new Scanner(System.in);
+	System.out.println("Que contacto quieres eliminar?");
+	aux = leer.nextLine();
+	
+}
+
 	
 
 	public static void main(String[] args) {
@@ -29,8 +54,8 @@ public static void inicializarDatos(String mDatos[][],String nombre, int telefon
 
 		Scanner leer = new Scanner(System.in);
 		
-		String mDatos[][];
-		int opc = 0,telefono=0,tam=0,filas=0,columnas=2;
+		String mDatos[][],aux="";
+		int opc = 0,telefono=0,filas=0,columnas=2;
 		String nombre="";
 		System.out.println("Dime el numero de los empleados que vas a aniadir");
 		filas = leer .nextInt();
@@ -52,7 +77,7 @@ public static void inicializarDatos(String mDatos[][],String nombre, int telefon
 			inicializarDatos(mDatos, nombre, telefono);
 			preguntarDatos(nombre, telefono, mDatos);
 		case 2:
-		
+			buscarContacto(mDatos,aux);
 		case 3:
 			
 		case 4:
