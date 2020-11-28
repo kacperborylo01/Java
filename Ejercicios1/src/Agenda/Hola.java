@@ -2,7 +2,7 @@ package Agenda;
 
 import java.util.Scanner;
 
-public class AgendaTelefono {
+public class Hola {
 
 
 	public static void pintarMenu() {
@@ -18,10 +18,9 @@ public class AgendaTelefono {
 
 		for (int i = 0; i < mContactos.length; i++) {
 			for(int j = 0; j < mContactos[i].length; j++) {
-			for (int j = 0; j < mContactos[i].length; j++) {
-				mContactos[i][j] = "";
-			}
-		}
+			mContactos[i][j] = "";
+			}}
+		
 	}
 	
 
@@ -30,8 +29,8 @@ public class AgendaTelefono {
 		for(int i=0;i<mContactos.length;i++) {
 			if(mContactos[i][0].equalsIgnoreCase("")) {
 
-		Scanner leer = new Scanner(System.in);
-		for (int i = 0; i < mContactos.length; i++) {
+		
+		for (int j = 0; j < mContactos.length; i++) {
 			if (mContactos[i][0].equalsIgnoreCase("")) {
 				System.out.println("Dime el nombre del nuevo contacto.");
 				mContactos[i][0]=leer.next();
@@ -43,7 +42,8 @@ public class AgendaTelefono {
 			}
 		}
 	}
-
+		}
+		}
 	public static int buscarContacto(String mContactos[][], String busqueda) {
 		for (int i = 0; i < mContactos.length; i++) {
 			if (mContactos[i][0].equalsIgnoreCase(busqueda) || mContactos[i][1].equalsIgnoreCase(busqueda)) {
@@ -118,13 +118,11 @@ public class AgendaTelefono {
 		String mContactos[][];
 		int filas=0, columnas=2, num=0;
 		Scanner leer=new Scanner(System.in);
-		int filas = 0, columnas = 2, num = 0;
-		Scanner leer = new Scanner(System.in);
+	
 		System.out.println("Dime el número de filas que quieres.");
 		filas=leer.nextInt();
 		mContactos=new String[filas][2];
-		filas = leer.nextInt();
-		mContactos = new String[filas][2];
+		
 		recorrerMatriz(mContactos);
 
 		mContactos[0][0] = "javier";
