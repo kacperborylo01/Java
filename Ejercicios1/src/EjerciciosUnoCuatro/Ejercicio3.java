@@ -8,9 +8,9 @@ public class Ejercicio3 {
 		// TODO Auto-generated method stub
 		String nombre = "";
 		
-		String comprobar,aux;
+		String aux;
 		
-		comprobar= "aeiou";
+		
 		Scanner leer = new Scanner(System.in);
 		
 		System.out.println("ESCRIBE TU NOMBRE Y TE DIRE CUANTAS VOCALES CONTIENE");
